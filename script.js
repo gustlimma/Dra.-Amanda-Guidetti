@@ -4,7 +4,7 @@
   document.documentElement.classList.add('js');
 
   /* ===== Número do WhatsApp: troque aqui (DDI+DDD+número, só dígitos) ===== */
-  var WA_NUMBER = '5511000000000';
+  var WA_NUMBER = '5518996231301';
   var WA_TEXT = 'Olá! Quero agendar uma consulta.';
   document.querySelectorAll('[data-wa]').forEach(function (a) {
     a.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(WA_TEXT);
