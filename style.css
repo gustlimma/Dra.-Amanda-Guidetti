@@ -58,7 +58,7 @@ h1 em{display:block;font-weight:600;font-style:normal;color:var(--green-dark)}
 .float strong{display:block;font-family:var(--serif);font-size:1.25rem;line-height:1.1}
 .float span{font-size:.8rem;color:var(--muted)}
 .float svg{width:30px;height:30px;color:var(--green)}
-.float--a{left:-4%;bottom:14%}.float--b{right:0;top:8%;display:block}
+.float--a{left:-4%;bottom:14%}
 .wave{position:absolute;bottom:-1px;left:0;width:100%;height:70px}
 
 /* ===== Seções ===== */
@@ -207,3 +207,8 @@ h1 em{display:block;font-weight:600;font-style:normal;color:var(--green-dark)}
 @keyframes lbIn{from{opacity:0}}
 @keyframes lbZoom{from{transform:scale(.92);opacity:0}}
 @media(max-width:600px){.lightbox__nav{top:auto;bottom:18px;transform:none}}
+
+/* ===== Mapa real (Google Maps) ===== */
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map__tag{font-weight:700;color:var(--green-dark);box-shadow:0 6px 18px rgba(0,0,0,.15);transition:background .2s}
+.map__tag:hover{background:var(--green-soft)}
